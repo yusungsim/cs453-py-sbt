@@ -1,0 +1,16 @@
+### Test generation for filename: inputs/sample2.py ###
+
+1) Target funtion: test_me, args: ['x', 'y', 'z']
+
+2) Generated Test inputs
+Abs Domain: {'x': (-inf, inf), 'y': (-inf, 100003), 'z': (-inf, inf)}, --> Concretized input: (-877, 99847, -809)
+Abs Domain: {'x': (-inf, inf), 'y': (100003, 100003), 'z': (-inf, inf)}, --> Concretized input: (-819, 100003, -1001)
+Abs Domain: {'x': (-inf, inf), 'y': (100003, inf), 'z': (-inf, inf)}, --> Concretized input: (-979, 100087, -899)
+
+3) Branch coverage information
+Format: <branch line number> <T/F>: <input that covers the branch>
+None is printed when uncovered
+2T : (-819, 100003, -1001)
+2F : (-877, 99847, -809)
+
+Test report also saved at outputs/inputs/sample2.py.txt

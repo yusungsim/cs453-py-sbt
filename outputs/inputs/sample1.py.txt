@@ -1,0 +1,37 @@
+### Test generation for filename: inputs/sample1.py ###
+
+1) Target funtion: test_me, args: ['x', 'y', 'z']
+
+2) Generated Test inputs
+Abs Domain: {'x': (-inf, -1), 'y': (-inf, 13), 'z': (-inf, 4)}, --> Concretized input: (-38, -89, -20)
+Abs Domain: {'x': (-inf, -1), 'y': (-inf, 13), 'z': (4, 4)}, --> Concretized input: (-182, -197, 4)
+Abs Domain: {'x': (-inf, -1), 'y': (-inf, 13), 'z': (4, inf)}, --> Concretized input: (-175, -82, 106)
+Abs Domain: {'x': (-1, 2), 'y': (-inf, 13), 'z': (-inf, 4)}, --> Concretized input: (0, -31, -216)
+Abs Domain: {'x': (-1, 2), 'y': (-inf, 13), 'z': (4, 4)}, --> Concretized input: (0, -58, 4)
+Abs Domain: {'x': (-1, 2), 'y': (-inf, 13), 'z': (4, inf)}, --> Concretized input: (0, -210, 83)
+Abs Domain: {'x': (2, inf), 'y': (-inf, 13), 'z': (-inf, 4)}, --> Concretized input: (19, -49, -89)
+Abs Domain: {'x': (2, inf), 'y': (-inf, 13), 'z': (4, 4)}, --> Concretized input: (35, -132, 4)
+Abs Domain: {'x': (2, inf), 'y': (-inf, 13), 'z': (4, inf)}, --> Concretized input: (126, -131, 134)
+Abs Domain: {'x': (-inf, -1), 'y': (13, inf), 'z': (-inf, 4)}, --> Concretized input: (-173, 208, -160)
+Abs Domain: {'x': (-inf, -1), 'y': (13, inf), 'z': (4, 4)}, --> Concretized input: (-212, 37, 4)
+Abs Domain: {'x': (-inf, -1), 'y': (13, inf), 'z': (4, inf)}, --> Concretized input: (-247, 175, 29)
+Abs Domain: {'x': (-1, 2), 'y': (13, inf), 'z': (-inf, 4)}, --> Concretized input: (2, 125, -51)
+Abs Domain: {'x': (-1, 2), 'y': (13, inf), 'z': (4, 4)}, --> Concretized input: (-1, 250, 4)
+Abs Domain: {'x': (-1, 2), 'y': (13, inf), 'z': (4, inf)}, --> Concretized input: (0, 100, 248)
+Abs Domain: {'x': (2, inf), 'y': (13, inf), 'z': (-inf, 4)}, --> Concretized input: (94, 44, -190)
+Abs Domain: {'x': (2, inf), 'y': (13, inf), 'z': (4, 4)}, --> Concretized input: (143, 64, 4)
+Abs Domain: {'x': (2, inf), 'y': (13, inf), 'z': (4, inf)}, --> Concretized input: (60, 187, 34)
+
+3) Branch coverage information
+Format: <branch line number> <T/F>: <input that covers the branch>
+None is printed when uncovered
+2T : (-173, 208, -160)
+2F : (-38, -89, -20)
+4T : (-173, 208, -160)
+4F : (2, 125, -51)
+7T : (-173, 208, -160)
+7F : (-1, 250, 4)
+18T : (-182, -197, 4)
+18F : (-38, -89, -20)
+
+Test report also saved at outputs/inputs/sample1.py.txt

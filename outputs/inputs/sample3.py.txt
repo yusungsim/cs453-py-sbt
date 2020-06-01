@@ -1,0 +1,16 @@
+### Test generation for filename: inputs/sample3.py ###
+
+1) Target funtion: test_me, args: ['x']
+
+2) Generated Test inputs
+Abs Domain: {'x': (-inf, 2)}, --> Concretized input: (-73,)
+Abs Domain: {'x': (2, 2)}, --> Concretized input: (2,)
+Abs Domain: {'x': (2, inf)}, --> Concretized input: (151,)
+
+3) Branch coverage information
+Format: <branch line number> <T/F>: <input that covers the branch>
+None is printed when uncovered
+3T : (2,)
+3F : (-73,)
+
+Test report also saved at outputs/inputs/sample3.py.txt

@@ -1,0 +1,25 @@
+### Test generation for filename: inputs/sample4.py ###
+
+1) Target funtion: test_me, args: ['x', 'y', 'z']
+
+2) Generated Test inputs
+Abs Domain: {'x': (-inf, 4), 'y': (-inf, inf), 'z': (-inf, 112831829389)}, --> Concretized input: (-45, -999, 112831829290)
+Abs Domain: {'x': (-inf, 4), 'y': (-inf, inf), 'z': (112831829389, inf)}, --> Concretized input: (-144, -942, 112831829463)
+Abs Domain: {'x': (4, 4), 'y': (-inf, inf), 'z': (-inf, 112831829389)}, --> Concretized input: (4, -855, 112831829259)
+Abs Domain: {'x': (4, 4), 'y': (-inf, inf), 'z': (112831829389, inf)}, --> Concretized input: (4, -930, 112831829640)
+Abs Domain: {'x': (4, inf), 'y': (-inf, inf), 'z': (-inf, 112831829389)}, --> Concretized input: (251, -915, 112831829204)
+Abs Domain: {'x': (4, inf), 'y': (-inf, inf), 'z': (112831829389, inf)}, --> Concretized input: (132, -919, 112831829516)
+
+3) Branch coverage information
+Format: <branch line number> <T/F>: <input that covers the branch>
+None is printed when uncovered
+5T : (4, -855, 112831829259)
+5F : (-45, -999, 112831829290)
+8T : None
+8F : (4, -855, 112831829259)
+11T : None
+11F : None
+16T : None
+16F : (4, -855, 112831829259)
+
+Test report also saved at outputs/inputs/sample4.py.txt
